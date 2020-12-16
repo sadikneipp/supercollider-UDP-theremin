@@ -3,7 +3,7 @@ from time import sleep
 from multiprocessing import Process, Value
 
 from receiver import create_socket, get_data
-from supercollider import connect, send_message
+from sc_interface import connect, send_message
 
 TONE_LB = 220
 TONE_UB = 880
